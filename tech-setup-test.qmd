@@ -57,4 +57,15 @@ Click the green arrow to push your commit.
 
 If all worked as it should have, you should be able to see the commit you made on GitHub.
 
-Find your tech-setup repository in [our course github organization](https://github.com/soc333-sum23).
+Find your tech-setup repository in [our course github organization](https://github.com/soc333-sum23). You should see the list of files in the repository, and your commit message should show up next to the .qmd and .html files. If you click on these files, you should see that you are listed as the author.
+
+### It worked!
+
+-   Congrats! You're done with the most annoying and tedious part of this course!
+
+```{=html}
+<iframe src="https://giphy.com/embed/t3sZxY5zS5B0z5zMIz" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nhl-sports-hockey-fan-t3sZxY5zS5B0z5zMIz">via GIPHY</a></p>
+```
+### It didn't work...
+
+-   Can't seem to get it? No worries--come talk to me and we'll get it sorted out.
