@@ -1,0 +1,44 @@
+---
+title: "tech-setup-test"
+author: "Aidan Combs"
+---
+
+# Testing your setup
+
+Congratulations! If you are reading this in RStudio, you have successfully cloned a repository!
+
+This document asks you to make and commit some small changes to make sure everything is working correctly.
+
+## 1. Add your name
+
+In the section at the very top of the page, you should see a block with lines for the document title and author. Next to `author`, replace my name with yours.
+
+## 2. Render the document
+
+In the menu bar, you should see a button that says `Render`. Click it. After a few seconds, an html document will be created in your project directory, and a browser window containing the text that is in this document should pop up.
+
+![](images/render.png)
+
+::: callout-note
+Though html documents like this one are displayed in your browser, they are not actually on the internet. Look at the bar where the webpage url would usually be, and you'll see a file path, not a webpage url. Just like other files on your computer, html files can be accessed whether or not you're connected to wifi, and they're only accessible to you (at least until you choose to upload them somewhere).
+:::
+
+::: callout-note
+Rendering converts the text and code that you write in your qmd document to a nicer-looking, non-editable output format. It's like when you write something up in Word and then save it as a pdf.
+
+Html documents are only one of many output formats that Quarto can create. Qmd documents can also be used to make pdfs, word documents, slides, websites, and many other things. We will be sticking with html documents (the default) in this class, but see [this page](https://quarto.org/docs/output-formats/all-formats.html) for other formats that might be useful to you in future.
+:::
+
+## 3. Make your first commit
+
+Now let's commit the change in authorship and that new html file you just created. First, save your file as you normally would (File -\> Save)
+
+::: callout-note
+"Committing" changes means saving them to Git. You should commit your changes frequently--as a rule of thumb, every time you finish a task, or reach some other natural stop point that you may want to roll back to later on.
+:::
+
+In the upper right hand corner of RStudio, you should see a pane with several tabs. One of those tabs is labeled "Git." Click this, and you should see the files and folders in your project directory.
+
+![](images/git_pane.png)
+
+To commit changes, first you have to stage them. Changes to multiple files can be included in one commit. Check the boxes next to your .html and .qmd files---this tells Git that you want to include all changes you've made to these files in your commit.
