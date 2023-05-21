@@ -41,16 +41,20 @@ In the upper right hand corner of RStudio, you should see a pane with several ta
 
 ![](images/git_pane.png)
 
-To commit changes, first you have to stage them. Changes to multiple files can be included in one commit. Check the boxes next to your .html and .qmd files---this tells Git that you want to include all changes you've made to these files in your commit.
+To commit changes, first you have to stage them. Changes to multiple files can be included in one commit. Check the boxes next to your .html and .qmd files---this tells Git that you want to include all changes you've made to the qmd file and add in the new html file.
 
 Then, click the "Commit" button. This brings up a window in which you can see the changes you've made. Enter a short label or message describing your commit in the text box in the upper right hand corner, then click "Commit" again to finish the commit. Once everything is finished, you can close the popup window.
 
 ## 4. Push your changes to GitHub
 
-Now you've successfully logged your changes with Git. But Git is just a program that lives on your computer. In order for your changes to show up on Git*Hub*, where I can see and grade them, you need to "push" your local commits back up to the remote repository. Essentially, you're uploading your changes to the internet version of the project.
+Now you've successfully logged your changes with Git. But Git is just a program that lives on your computer. In order for your changes to show up on Git*Hub*, where I can see and grade them, you need to "push" your local commits back up to the remote repository. Essentially, you're uploading your changes to the online version of the project.
 
 In the menu bar of the Git pane, you should see a green up arrow. This is the push button, and when you click it, all of the commits you have made will be uploaded to your repository on GitHub.
 
 Click the green arrow to push your commit.
 
 ## 5. Did it work? Check GitHub!
+
+If all worked as it should have, you should be able to see the commit you made on GitHub.
+
+Find your tech-setup repository in [our course github organization](https://github.com/soc333-sum23).
