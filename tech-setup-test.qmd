@@ -1,17 +1,20 @@
 ---
-title: "tech-setup-test"
+title: "Testing your computing setup"
 author: "Aidan Combs"
+editor: visual
 ---
-
-# Testing your setup
 
 Congratulations! If you are reading this in RStudio, you have successfully cloned a repository!
 
 This document asks you to make and commit some small changes to make sure everything is working correctly.
 
+::: callout-note
+This is a Quarto document (.qmd). Quarto documents make it really easy to integrate code, analyses, and plots into your writing. It is the format we'll be using for most of the exercises and assignments in this course.
+:::
+
 ## 1. Add your name
 
-In the section at the very top of the page, you should see a block with lines for the document title and author. Next to `author`, replace my name with yours.
+In the section at the very top of the page, you should see a block with some lines, including one for the document author. Next to `author`, replace my name with yours.
 
 ## 2. Render the document
 
@@ -31,10 +34,10 @@ Html documents are only one of many output formats that Quarto can create. Qmd d
 
 ## 3. Make your first commit
 
-Now let's commit the change in authorship and that new html file you just created. First, save your file as you normally would (File -\> Save). This saves your changes to your computer.
+Now let's commit the change in authorship and that new html file you just created. First, save your file as you normally would (*File* ➛ *Save*). This saves your changes to your computer.
 
 ::: callout-note
-"Committing" changes means saving them to Git. You should commit your changes frequently---as a rule of thumb, every time you finish a task, or reach some other natural stop point that you may want to roll back to later on.
+"Committing" changes means saving them to Git. You should commit your changes frequently---as a rule of thumb, every time you finish a task or reach some other natural stop point that you may want to roll back to later on.
 :::
 
 In the upper right hand corner of RStudio, you should see a pane with several tabs. One of those tabs is labeled "Git." Click this, and you should see a list of some or all the files in your project directory.
