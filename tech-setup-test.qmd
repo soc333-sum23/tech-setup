@@ -20,7 +20,7 @@ In the menu bar, you should see a button that says `Render`. Click it. After a f
 ![](images/render.png)
 
 ::: callout-note
-Though html documents like this one are displayed in your browser, they are not actually on the internet. Look at the bar where the webpage url would usually be, and you'll see a file path, not a webpage url. Just like other files on your computer, html files can be accessed whether or not you're connected to wifi, and they're only accessible to you (at least until you choose to upload them somewhere).
+Though html documents like this one are displayed in your browser, they are not actually on the internet. Look at the bar where the webpage url would usually be, and you'll see a file path or something starting with "localhost", not a webpage url. Just like other files on your computer, html files can be accessed whether or not you're connected to wifi, and they're only accessible to you (at least until you choose to upload them somewhere).
 :::
 
 ::: callout-note
@@ -37,10 +37,14 @@ Now let's commit the change in authorship and that new html file you just create
 "Committing" changes means saving them to Git. You should commit your changes frequently---as a rule of thumb, every time you finish a task, or reach some other natural stop point that you may want to roll back to later on.
 :::
 
-In the upper right hand corner of RStudio, you should see a pane with several tabs. One of those tabs is labeled "Git." Click this, and you should see the files and folders in your project directory.
+In the upper right hand corner of RStudio, you should see a pane with several tabs. One of those tabs is labeled "Git." Click this, and you should see a list of some or all the files in your project directory.
 
 ![](images/git_pane.png)
 
 To commit changes, first you have to stage them. Changes to multiple files can be included in one commit. Check the boxes next to your .html and .qmd files---this tells Git that you want to include all changes you've made to these files in your commit.
 
 Then, click the "Commit" button. This brings up a window in which you can see the changes you've made. Enter a short label or message describing your commit in the text box in the upper right hand corner, then click "Commit" again to finish the commit. Once everything is finished, you can close the popup window.
+
+## 4. Push your changes to GitHub
+
+Now you've successfully logged your changes with Git. But Git is just a program that lives on your computer. In order for your changes to show up on Git*Hub*, where I can see and grade them, you need to "push" your local commits back up to the remote repository. Essentially, you're uploading your changes to the internet version of the project.
